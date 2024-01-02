@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahara</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:'Roboto',sans-serif;
+        }
+        .main {
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(Sahara.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        height: 12%;
+        width: 100vw;
+        padding-right: 6%;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    .logo{
+        width: 70px;
+        cursor: pointer;
+    }
+     nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav a{
+        margin-left: 30px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+        margin-left: 2%;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+    .col h1{
+        color: #fff;
+        font-size: 100px;
+    }
+    .col p{
+        color: #fff;
+        font-size: 15px;
+    }
+    .col button{
+        width: 78px;
+        height: 24px;
+        font-size: 13px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <img src="Logo.png" class="logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Sahara</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora laborum ipsam iure commodi eos dolore ipsa perferendis incidunt esse excepturi recusandae eius inventore, atque enim voluptatibus repellendus modi unde temporibus.</p>
+                <button type="button"> <a href="https://en.wikipedia.org/wiki/Sahara" style="text-decoration: none;color: #000;">Explore</a></button>
+            </div>
+        </div>
+        <div class="card">
+            
+        </div>
+    </div>
+</body>
+</html>
